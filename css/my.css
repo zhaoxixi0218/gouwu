@@ -1,0 +1,419 @@
+html,body,section{
+	min-height: 600px;
+	min-width: 1000px;
+}
+.next{
+	position: fixed;
+	bottom: 120px;
+	right: 10%;
+	z-index: 999;
+}
+.go{
+	position: fixed;
+	top: 5%;
+	right: 5%;
+	z-index: 999;
+}
+/* 第一张屏幕  */
+.section1{
+	background: #fadd67 url(../img/section1-body.png) no-repeat  center bottom;
+}
+.fly{
+	position: absolute;
+	right: 20%;
+	top: 10%;
+}
+.shafa1{
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	bottom: 335px;
+}
+.fixed1{
+	position: absolute;
+	left: 50%;
+	margin-left: -420px;
+	bottom: 150px;
+}
+/* 第二张屏幕  */
+.section2{
+	background: #84a2d4 url(../img/t1zdgpfi8exxca6rfn-2000-600.png) no-repeat  center bottom;;
+	z-index: 2;
+}
+.computer{
+	width: 990px;
+	height: 500px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0;
+}
+.search{
+	width: 222px;
+	height: 45px;
+	background:url(../img/search.png) no-repeat ;
+	right: -4px;
+	bottom: 300px;
+	position: absolute;
+	display: none;
+}
+.shafa2{
+	position: absolute;
+	right: 30px;
+	top: 5px;
+	opacity: 0;
+}
+.searchshafa{
+	position: absolute;
+	bottom: 300px;
+	right: 370px;
+	display: none;
+}
+.shafa3{
+	position: absolute;
+	height: 100px;
+	bottom: 217px;
+	right: 270px;
+	display: none;
+}
+.words1{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 550PX; 
+}
+.words2{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 550PX;
+	opacity: 0;
+}
+.shafa5{
+	position: absolute;
+	bottom:345px;
+	left: 395px;
+	width: 100px;
+	display: none;
+	z-index: 10;
+}
+.cover{
+	position: absolute;
+	width:101px; 
+	height:90px;
+	bottom:334px;
+	right: 496px;
+	z-index: 5;
+	background-color: #fff;
+	display: none;
+}
+.section3{
+	background: #ef674d;
+	z-index: 1;
+}
+.main{
+	position: absolute;
+	width: 700px;
+	height: 500px;
+	background:url(../img/main.png) no-repeat center;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50PX;
+}
+.main_bottom{
+	position: absolute;
+	width: 300px;
+	height: 250px;
+	bottom: 0;
+	right: 8px;
+}
+
+.shafa4{
+	position: absolute;
+	left: 115px;
+	bottom: 200px;
+	display: none;
+}
+.shafa6{
+	position: absolute;
+	left: 115px;
+	bottom: 200px;
+	display: none;
+}
+.btn{
+	position: absolute;
+	bottom: 10px;
+}
+.img{
+	position: absolute;
+	top: 0;
+}
+.img-a{
+	opacity: 0;
+}
+.btn-a{
+	opacity: 0;
+}
+.section4{
+	background: #fed url(../img/t1iresfnxaxxca6rfn-2000-600.png) no-repeat  center bottom;
+}
+.cloud{
+	position: absolute;
+	left: 50%;
+	bottom: 550px;
+}
+.word{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom:500px;
+}
+.words-04a{
+	opacity: 0;
+	
+}
+.car{
+	width: 500px;
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 50;
+}
+.shafa7{
+	position: absolute;
+	bottom: 200px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: -1;  
+	display: none;
+}
+.comment{
+	background: pink;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 180px;
+	display: none;
+}
+.s2{
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	opacity: 0;
+}
+.section5{
+	background: #d04759 url(../img/t1yisqfa4exxa3gmkg-2000-1500.png);
+	
+	perspective: 500;
+	-webkit-perspective: 500;
+	z-index: 1;
+}
+.word-05 {
+	position: absolute;
+	left: 20%;
+	top: 10%;
+	display: none;
+}
+.card{
+	position:absolute;
+	bottom:200px;
+	left: 20%;
+	z-index:5;
+}
+.order-05{
+	position:absolute;
+	bottom:270px;
+	left: 27%;
+}
+.shafa8{
+	position: absolute;
+	left:22%;
+	bottom:700px;
+	display: none;
+}
+.mouse{
+	position: absolute;
+	bottom: 200px;
+	right: 20%;
+	}
+.mouse-a{ 
+	display:none;
+	}
+.hand {
+	position: absolute;
+	right: 24%;
+	bottom: -375px;
+}
+.overflow{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.cloud-06{
+	position: absolute;
+	left: 50%;
+	bottom: 550px;
+}
+
+.section6{
+	background: #84d9ed url(../img/t1dvj.fn0gxxb0_fua-2500-600.png) no-repeat 25% 100%;}
+.box{
+	position: absolute;
+	left: 123px;
+	bottom: 500px;
+	z-index: 50;
+}
+.car-06{
+	position: absolute;
+    right: 50%;
+	bottom: 0;
+	z-index: 60;
+}
+.address{
+	position: absolute;
+	bottom: 119px;
+    right: 48%;
+    display: none;
+}
+.man{
+	height: 100px;
+	position: absolute;
+	right: 50%;
+	bottom: 0;
+}
+.women{
+	position: absolute;
+	right: 315px;
+	bottom: 116px;
+	height: 123px;
+	display: none;
+	z-index: 2;
+}
+.door{
+	position: absolute;
+	right: 285px;
+	bottom: 116px;
+	display: none;
+}
+.take{
+	position: absolute;
+	right: 445px;
+	bottom: 400px;
+	display: none;
+}
+.section7{
+	background: #8ac060 url(../img/t1wf1tfctaxxa3gmkg-2000-1500.png) no-repeat  50% 100%;
+}
+.star{
+	position: absolute;
+	left: 50%;
+	bottom: 439px;
+	margin-left: -295px;
+	width: 0;
+	height: 20px;
+	background: url(../img/star.png);
+	background-size: 97px;
+}
+.good{
+	position: absolute;
+	left: 50%;
+	bottom: 382px;
+	margin-left: -289px;
+	display: none;
+}
+.section8{
+	background: url(../img/ksgw.png);
+}
+.beginShoping{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom:365px ;
+}
+.btn-08-a{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.again{
+	position: absolute;
+	bottom: 403px;
+	left: 50%;
+	margin-left:240px ;
+	cursor: pointer;
+}
+.hand-08{
+	position: absolute;
+	bottom: 0;
+	right: 5%;
+}
+/* 动画组  */
+.updown{
+	animation: fly 3s linear infinite;
+}
+@keyframes fly{
+	
+	50%{
+		top: 20%;
+	}
+	100%{
+		top: 10%;
+	}
+}
+.shafaupdown{
+	animation: shafa1 3s linear infinite;
+}
+@keyframes shafa1{
+	50%{
+		bottom: 360px;
+	}
+	100%{
+		bottom: 335px;
+	}
+}
+.cloud1{
+	animation: cloud1 30s linear infinite;
+}
+@keyframes cloud1{
+	50%{
+		left: -10%;
+	}
+	100%{
+		left: 50%;
+	}
+}
+.word-05{
+	animation: word-05 3s forwards;
+}
+@keyframes word-05{
+	100%{
+		transform:translateZ(100px) rotateY(360deg) ;
+	}
+}
+.cloud-06{
+	animation: cloud6 30s linear infinite;
+}
+@keyframes cloud6{
+	50%{
+		left: -10%;
+	}
+	100%{
+		left: 50%;
+	}
+}
+.next-updown{
+	animation:next-updown 1s linear infinite;
+}
+@keyframes next-updown{
+	50%{
+		bottom: 100px;
+	}
+	100%{
+		bottom: 120px;
+	}
+}
